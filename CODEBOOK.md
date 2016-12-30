@@ -1,5 +1,6 @@
 #CODEBOOK
 ##List of variable of the tidyData.txt file
+\#|Variable name
 |---|---
 "1" | "PersonID"
 "2" | "Activity"
