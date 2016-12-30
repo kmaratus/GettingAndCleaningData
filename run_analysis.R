@@ -44,7 +44,8 @@ mergedData<-rbind(trainData,testData)
 names(mergedData)<-c("PersonID","Activity",as.character(features[,2]))
 
 ##Extract measurements related to the mean and standard deviation
-mergedData<-mergedData[,c(1,2,grep("mean|std",names(mergedData)))]
+##e.i. variable has a "-mean()" or "-std()" extensions
+mergedData<-mergedData[,c(1,2,grep("-mean\\(\\)|-std\\(\\)",names(mergedData)))]
 
 ##adding descriptive activity labels to the mergedData
 mergedData[,"Activity"]<-sapply(mergedData[,"Activity"],function(x) activities[x,2])
