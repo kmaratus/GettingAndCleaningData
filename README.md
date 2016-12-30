@@ -26,3 +26,9 @@ The tidy data consists of 180 rows and 68 columns. The first column is volunteer
 
 To open the tidy data file
 'tidy<-read.table("tidyData.txt",header=TRUE)'
+
+##The repo includes following files
+- 'run_analysis.R': Script constructing tidy data set
+- 'tidyData.txt': tidy data set
+- 'CODEBOOK.md': Codebook containing variable names and its range
+- 'README.md': This README file

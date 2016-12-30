@@ -1,5 +1,6 @@
 #CODEBOOK
 ##List of variable of the tidyData.txt file
+|---|---
 "1" | "PersonID"
 "2" | "Activity"
 "3" | "tBodyAcc-mean()-X"
